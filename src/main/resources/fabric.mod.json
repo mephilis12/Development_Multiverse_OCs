@@ -3,20 +3,23 @@
 	"id": "devocs",
 	"version": "${version}",
 	"name": "Development Multiverse OCs",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "OC Items and Blocks",
 	"authors": [
-		"Me!"
+		"Mephilis,Development Multiverse"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://linktr.ee/DevMultiverse",
+		"sources": "https://github.com/mephilis12/Development_Multiverse_OCs"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/devocs/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.mephilis.devocs.DevelopmentMultiverseOCs"
+		],
+		"client": [
+			"net.mephilis.devocs.DevOCsClient"
 		],
 		"fabric-datagen": [
 			"net.mephilis.devocs.DevelopmentMultiverseOCsDataGenerator"
