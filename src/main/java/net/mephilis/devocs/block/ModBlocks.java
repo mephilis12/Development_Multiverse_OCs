@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mephilis.devocs.DevelopmentMultiverseOCs;
+import net.mephilis.devocs.block.custom.EmptyGlassBlock;
 import net.mephilis.devocs.block.custom.RotatingBlock;
 import net.mephilis.devocs.item.ModItems;
 import net.minecraft.block.Block;
@@ -38,14 +39,23 @@ public class ModBlocks {
     public static final Block DEEPSLATE_WALL_DESIGN = registerBlock("deepslate_wall_design",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_TILES)));
 
+    public static final Block FRAME_BLOCK = registerBlock("frame_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_TILES)));
+
+    public static final Block BROKEN_PORTAL_FRAME = registerBlock("broken_portal_frame",
+            new RotatingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_TILES)));
+
     public static final Block EMPTY_GLASS = registerBlock("empty_glass",
-            new RotatingBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+            new EmptyGlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
 
 
 
     private static void addItemsToBuildingBlocksItemGroups(FabricItemGroupEntries entries) {
         entries.add(FLOOR_TILE);
         entries.add(DEEPSLATE_WALL_DESIGN);
+        entries.add(EMPTY_GLASS);
+        entries.add(FRAME_BLOCK);
+        entries.add(BROKEN_PORTAL_FRAME);
     }
 
     private static void addItemsToNaturalItemGroups(FabricItemGroupEntries entries) {

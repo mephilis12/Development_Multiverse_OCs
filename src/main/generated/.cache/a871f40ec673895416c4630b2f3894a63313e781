@@ -1,3 +1,4 @@
-// 1.20.1	2024-12-01T18:55:40.0583261	Development Multiverse OCs/Tags for minecraft:block
+// 1.20.1	2024-12-01T19:49:32.6275406	Development Multiverse OCs/Tags for minecraft:block
 a8c77489d444cd7851f6754c3ce903c0a8a85a86 data\minecraft\tags\blocks\needs_iron_tool.json
-3129a23f1482b634ce6c061db16930487b6d35c8 data\minecraft\tags\blocks\mineable\pickaxe.json
+fbd2de74ab9960d83a60d7d2d647fc251b728d4e data\minecraft\tags\blocks\mineable\pickaxe.json
+be356f0d228ad4fb58704cecd6520bc166fbfd93 data\minecraft\tags\blocks\needs_diamond_tool.json

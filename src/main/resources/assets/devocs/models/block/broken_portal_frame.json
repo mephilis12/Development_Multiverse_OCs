@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "devocs:block/broken_frame_front",
+    "down": "devocs:block/broken_frame_top",
+    "up": "devocs:block/broken_frame_top",
+    "north": "devocs:block/broken_frame_front",
+    "east": "devocs:block/broken_frame_side",
+    "south": "devocs:block/broken_frame_front",
+    "west": "devocs:block/broken_frame_side"
+  }
+}

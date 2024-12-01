@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "devocs:block/broken_portal_frame",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "devocs:block/broken_portal_frame",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "devocs:block/broken_portal_frame"
+    },
+    "facing=west": {
+      "model": "devocs:block/broken_portal_frame",
+      "y": 90
+    }
+  }
+}

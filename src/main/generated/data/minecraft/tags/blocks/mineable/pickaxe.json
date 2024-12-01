@@ -6,6 +6,8 @@
     "devocs:ruby_ore",
     "devocs:deepslate_ruby_ore",
     "devocs:floor_tile",
-    "devocs:deepslate_wall_design"
+    "devocs:deepslate_wall_design",
+    "devocs:broken_portal_frame",
+    "devocs:frame_block"
   ]
 }

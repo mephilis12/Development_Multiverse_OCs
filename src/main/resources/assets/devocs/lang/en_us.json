@@ -10,7 +10,9 @@
   "block.devocs.cobalt_ore": "Cobalt Ore",
   "block.devocs.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
   "block.devocs.deepslate_wall_design": "Deepslate Wall Design",
-  "block.devocs.empty_glass": "Empty Glass"
+  "block.devocs.empty_glass": "Empty Glass",
+  "block.devocs.broken_portal_frame": "Broken Portal Frames",
+  "block.devocs.frame_block": "Grimstone"
 
 
 

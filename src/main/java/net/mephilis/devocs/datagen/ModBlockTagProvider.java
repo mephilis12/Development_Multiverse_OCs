@@ -21,7 +21,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.FLOOR_TILE)
-                .add(ModBlocks.DEEPSLATE_WALL_DESIGN);
+                .add(ModBlocks.DEEPSLATE_WALL_DESIGN)
+                .add(ModBlocks.BROKEN_PORTAL_FRAME)
+                .add(ModBlocks.FRAME_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.COBALT_ORE)
@@ -29,6 +31,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_WALL_DESIGN)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_COBALT_ORE);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.BROKEN_PORTAL_FRAME)
+                .add(ModBlocks.FRAME_BLOCK);
 
 
     }
