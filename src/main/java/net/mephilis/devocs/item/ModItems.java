@@ -5,8 +5,10 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mephilis.devocs.DevelopmentMultiverseOCs;
 import net.mephilis.devocs.item.custom.MilkshakeItem;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -18,6 +20,10 @@ public class ModItems {
     public static final Item COBALT_DUST = registerItem("cobalt_dust", new Item(new FabricItemSettings()));
 
     public static final Item COBALT_INGOT = registerItem("cobalt_ingot", new Item(new FabricItemSettings()));
+
+    public static final Item COBALT_BATTLEAXE = registerItem("cobalt_battleaxe", new SwordItem(ModToolMaterial.COBALT,6,-3.5F, new FabricItemSettings()));
+
+    public static final Item COBALT_CLAYMORE = registerItem("cobalt_claymore", new SwordItem(ModToolMaterial.COBALT,3,-3.0F, new FabricItemSettings()));
 
     public static final Item MILKSHAKE = registerItem("milkshake", new MilkshakeItem(new FabricItemSettings().food(ModFoodComponents.MILKSHAKE).maxCount(1)));
 
