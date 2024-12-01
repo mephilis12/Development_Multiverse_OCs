@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "X": {
+      "item": "minecraft:red_terracotta"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "OOO",
+    "OOO"
+  ],
+  "result": {
+    "item": "devocs:deepslate_wall_design"
+  },
+  "show_notification": true
+}

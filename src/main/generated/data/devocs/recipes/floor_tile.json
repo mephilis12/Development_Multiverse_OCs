@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:blackstone"
+    },
+    "X": {
+      "item": "minecraft:calcite"
+    }
+  },
+  "pattern": [
+    "XOX",
+    "OXO",
+    "XOX"
+  ],
+  "result": {
+    "count": 5,
+    "item": "devocs:floor_tile"
+  },
+  "show_notification": true
+}

@@ -1,10 +1,16 @@
 {
   "item.devocs.ruby": "Ruby",
+  "item.devocs.cobalt_dust": "Cobalt Dust",
+  "item.devocs.cobalt_ingot": "Cobalt Ingot",
+  "item.devocs.milkshake": "Milkshake",
 
   "block.devocs.floor_tile": "Floor Tile",
   "block.devocs.ruby_ore": "Ruby Ore",
   "block.devocs.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "block.devocs.deepslate_wall_design": "Deepslate Wall Design"
+  "block.devocs.cobalt_ore": "Cobalt Ore",
+  "block.devocs.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+  "block.devocs.deepslate_wall_design": "Deepslate Wall Design",
+  "block.devocs.empty_glass": "Empty Glass"
 
 
 

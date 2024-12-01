@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "devocs:item/empty_glass",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "devocs:item/empty_glass",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "devocs:item/empty_glass"
+    },
+    "facing=west": {
+      "model": "devocs:item/empty_glass",
+      "y": 90
+    }
+  }
+}

@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mephilis.devocs.DevelopmentMultiverseOCs;
+import net.mephilis.devocs.item.custom.MilkshakeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -18,8 +19,7 @@ public class ModItems {
 
     public static final Item COBALT_INGOT = registerItem("cobalt_ingot", new Item(new FabricItemSettings()));
 
-    public static final Item MILKSHAKE = registerItem("milkshake", new Item(new FabricItemSettings().food(ModFoodComponents.MILKSHAKE)));
-
+    public static final Item MILKSHAKE = registerItem("milkshake", new MilkshakeItem(new FabricItemSettings().food(ModFoodComponents.MILKSHAKE).maxCount(1)));
 
 
      private static void  addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {

@@ -1,10 +1,13 @@
 package net.mephilis.devocs;
 
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.mephilis.devocs.block.ModBlocks;
+import net.minecraft.client.render.RenderLayer;
 
 public class DevOCsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EMPTY_GLASS, RenderLayer.getCutout());
     }
 }

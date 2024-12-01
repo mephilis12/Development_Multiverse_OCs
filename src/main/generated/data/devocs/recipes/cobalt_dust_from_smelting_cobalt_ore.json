@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "group": "cobalt",
+  "ingredient": {
+    "item": "devocs:cobalt_ore"
+  },
+  "result": "devocs:cobalt_dust"
+}

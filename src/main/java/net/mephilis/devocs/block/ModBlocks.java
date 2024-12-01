@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mephilis.devocs.DevelopmentMultiverseOCs;
+import net.mephilis.devocs.block.custom.RotatingBlock;
 import net.mephilis.devocs.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -36,6 +37,9 @@ public class ModBlocks {
 
     public static final Block DEEPSLATE_WALL_DESIGN = registerBlock("deepslate_wall_design",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_TILES)));
+
+    public static final Block EMPTY_GLASS = registerBlock("empty_glass",
+            new RotatingBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
 
 
 
