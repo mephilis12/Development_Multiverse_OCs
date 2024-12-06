@@ -31,6 +31,18 @@ public abstract class ItemRendererMixin {
         if (stack.isOf(ModItems.COBALT_MORNINGSTAR) && renderMode != ModelTransformationMode.GUI) {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "cobalt_morninstar3d", "inventory"));
         }
+        if (stack.isOf(ModItems.RUBY_BATTLEAXE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_battleaxe3d", "inventory"));
+        }
+        if (stack.isOf(ModItems.RUBY_CLAYMORE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_claymore_3d", "inventory"));
+        }
+        if (stack.isOf(ModItems.RUBY_HAMMER) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_hammer3d", "inventory"));
+        }
+        if (stack.isOf(ModItems.RUBY_MORNINGSTAR) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_morninstar3d", "inventory"));
+        }
         return value;
     }
 }

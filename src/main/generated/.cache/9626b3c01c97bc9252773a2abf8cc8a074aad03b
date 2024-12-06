@@ -1,1 +1,24 @@
-// 1.20.1	2024-12-06T01:30:17.0840478	Development Multiverse OCs/Model Definitions
+// 1.20.1	2024-12-06T15:47:58.0729016	Development Multiverse OCs/Model Definitions
+73cc0656e5850c05abdea9ad71736cce27675cda assets\devocs\models\block\poly_log_horizontal.json
+826f443c63cfb6db5c494bf451fb9ac3f9ddd931 assets\devocs\models\block\poly_sapling.json
+10a7fa2680d761b901b10a396167bf5d2f1ea37c assets\devocs\models\item\poly_wood.json
+ec7117932ece722f5cd47d89451641f19e9af664 assets\devocs\models\block\stripped_poly_log.json
+c87d20226278947770240882f285b6b04b7a7834 assets\devocs\blockstates\stripped_poly_log.json
+097176f10db0cf57bb1915291bd9c7bfc633ad2b assets\devocs\models\block\poly_wood.json
+13661d53a3893439e4522253372e890ac92c1496 assets\devocs\blockstates\poly_wood.json
+8737bfdaed2874bfd9426151e868398b66b1e17c assets\devocs\blockstates\poly_leaves.json
+747d0ebebfa62e4802a25f05bb648a24cedf1192 assets\devocs\blockstates\stripped_poly_wood.json
+e3d4d2550a9bb76bc09da1cd29414dd4c6ac1eb3 assets\devocs\blockstates\poly_log.json
+75fec9a84614fec494713559bb8bf53a9a4bd7a4 assets\devocs\models\block\stripped_poly_wood.json
+bf43adc625a0a41e17de7bf5548443eb3f838858 assets\devocs\models\block\stripped_poly_log_horizontal.json
+fca20758489b969e687d06a50fe72d11bda18338 assets\devocs\models\block\poly_planks.json
+183fe6d6398e7e4d9e8f5188d405f865af9ff5df assets\devocs\blockstates\poly_planks.json
+8db82618eb80586e336987628843eb410c99bb7a assets\devocs\models\item\stripped_poly_log.json
+17cf480c3a3b637b08b03a87e9f5e3829059d5a6 assets\devocs\blockstates\poly_sapling.json
+42082685f8698d0113ab1ffca852b600309620c6 assets\devocs\models\block\poly_log.json
+1933d3d6d1954a082f33fce18ac6dcf657a9e921 assets\devocs\models\item\poly_planks.json
+d28ed9eb95bfb1af5d4703ae9340cdbf0bb52925 assets\devocs\models\item\poly_log.json
+17fc8e14e1f5fbb1756a864354ab218db9008555 assets\devocs\models\block\poly_leaves.json
+4ce1bf56560aec8fa18242a705a3a54924f0ca1d assets\devocs\models\item\poly_sapling.json
+0fa14818a2959b22b6a11608b621aa2f2d9d617e assets\devocs\models\item\poly_leaves.json
+05ab144645d62c52b797673d81e9e91bfabae5ee assets\devocs\models\item\stripped_poly_wood.json

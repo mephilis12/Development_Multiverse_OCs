@@ -5,6 +5,13 @@
   "item.devocs.milkshake": "Milkshake",
   "item.devocs.cobalt_claymore": "Cobalt Claymore",
   "item.devocs.cobalt_battleaxe": "Cobalt Battle-Axe",
+  "item.devocs.cobalt_hammer": "Cobalt Hammer",
+  "item.devocs.cobalt_morningstar": "Cobalt Morningstar",
+  "item.devocs.ruby_claymore": "Ruby Claymore",
+  "item.devocs.ruby_battleaxe": "Ruby Battle-Axe",
+  "item.devocs.ruby_hammer": "Ruby Hammer",
+  "item.devocs.ruby_morningstar": "Ruby Morningstar",
+  "item.devocs.molten_iron": "Molten Iron",
 
   "block.devocs.floor_tile": "Floor Tile",
   "block.devocs.ruby_ore": "Ruby Ore",
@@ -14,7 +21,14 @@
   "block.devocs.deepslate_wall_design": "Deepslate Wall Design",
   "block.devocs.empty_glass": "Empty Glass",
   "block.devocs.broken_portal_frame": "Broken Portal Frames",
-  "block.devocs.frame_block": "Grimstone"
+  "block.devocs.frame_block": "Grimstone",
+  "block.devocs.poly_log": "Poly Log",
+  "block.devocs.poly_wood": "Poly Wood",
+  "block.devocs.stripped_poly_log": "Stripped Poly Log",
+  "block.devocs.stripped_poly_wood": "Stripped Poly Wood",
+  "block.devocs.poly_planks": "Poly Planks",
+  "block.devocs.poly_leaves": "Poly Leaves",
+  "block.devocs.poly_sapling": "Poly Sapling"
 
 
 

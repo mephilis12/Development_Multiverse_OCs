@@ -11,16 +11,23 @@ import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.FeatureConfig;
-import net.minecraft.world.gen.feature.OreFeatureConfig;
+import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
+import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
+import net.minecraft.world.gen.foliage.CherryFoliagePlacer;
+import net.minecraft.world.gen.foliage.LargeOakFoliagePlacer;
+import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.trunk.DarkOakTrunkPlacer;
+import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = registerKey("ruby_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> COBALT_ORE_KEY = registerKey("nether_ruby_ore");
+
+    public static final RegistryKey<ConfiguredFeature<?, ?>>  POLY_KEY = registerKey("poly");
 
 
     public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
@@ -39,6 +46,17 @@ public class ModConfiguredFeatures {
 
         register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 6));
         register(context, COBALT_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldCobaltOres, 10));
+
+        register(context, POLY_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                    BlockStateProvider.of(ModBlocks.POLY_LOG),
+                new DarkOakTrunkPlacer(3,6,7),
+
+                    BlockStateProvider.of(ModBlocks.POLY_LEAVES),
+                new LargeOakFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 5),
+
+                new TwoLayersFeatureSize(2, 1, 3)).build());
+
+
 
     }
 

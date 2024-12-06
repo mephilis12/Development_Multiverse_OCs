@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mephilis.devocs.DevelopmentMultiverseOCs;
+import net.mephilis.devocs.item.custom.HammerItem;
 import net.mephilis.devocs.item.custom.MilkshakeItem;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
@@ -17,6 +18,8 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
 
+    public static final Item MOLTEN_IRON = registerItem("molten_iron", new Item(new FabricItemSettings()));
+
     public static final Item COBALT_DUST = registerItem("cobalt_dust", new Item(new FabricItemSettings()));
 
     public static final Item COBALT_INGOT = registerItem("cobalt_ingot", new Item(new FabricItemSettings()));
@@ -25,9 +28,17 @@ public class ModItems {
 
     public static final Item COBALT_CLAYMORE = registerItem("cobalt_claymore", new SwordItem(ModToolMaterial.COBALT,2,-2.5F, new FabricItemSettings()));
 
-    public static final Item COBALT_HAMMER = registerItem("cobalt_hammer", new SwordItem(ModToolMaterial.COBALT,8,-3.75F, new FabricItemSettings()));
+    public static final Item COBALT_HAMMER = registerItem("cobalt_hammer", new HammerItem(ModToolMaterial.COBALT,8,-3.75F, new FabricItemSettings()));
 
     public static final Item COBALT_MORNINGSTAR = registerItem("cobalt_morningstar", new SwordItem(ModToolMaterial.COBALT,1,-1.5F, new FabricItemSettings()));
+
+    public static final Item RUBY_BATTLEAXE = registerItem("ruby_battleaxe", new SwordItem(ModToolMaterial.RUBY,5,-3F, new FabricItemSettings()));
+
+    public static final Item RUBY_CLAYMORE = registerItem("ruby_claymore", new SwordItem(ModToolMaterial.RUBY,2,-2.5F, new FabricItemSettings()));
+
+    public static final Item RUBY_HAMMER = registerItem("ruby_hammer", new HammerItem(ModToolMaterial.RUBY,7,-3F, new FabricItemSettings()));
+
+    public static final Item RUBY_MORNINGSTAR = registerItem("ruby_morningstar", new SwordItem(ModToolMaterial.RUBY,0,-1F, new FabricItemSettings()));
 
     public static final Item MILKSHAKE = registerItem("milkshake", new MilkshakeItem(new FabricItemSettings().food(ModFoodComponents.MILKSHAKE).maxCount(1)));
 
@@ -44,6 +55,10 @@ public class ModItems {
         entries.add(COBALT_CLAYMORE);
         entries.add(COBALT_HAMMER);
         entries.add(COBALT_MORNINGSTAR);
+        entries.add(RUBY_BATTLEAXE);
+        entries.add(RUBY_CLAYMORE);
+        entries.add(RUBY_HAMMER);
+        entries.add(RUBY_MORNINGSTAR);
 
     }
 

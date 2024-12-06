@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "devocs:poly_log",
+    "devocs:poly_wood",
+    "devocs:stripped_poly_log",
+    "devocs:stripped_poly_wood"
+  ]
+}

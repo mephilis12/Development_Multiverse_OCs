@@ -27,5 +27,9 @@ public abstract class ModelLoaderMixin {
         this.addModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "cobalt_claymore_3d", "inventory"));
         this.addModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "cobalt_hammer3d", "inventory"));
         this.addModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "cobalt_morninstar3d", "inventory"));
+        this.addModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_battleaxe3d", "inventory"));
+        this.addModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_claymore_3d", "inventory"));
+        this.addModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_hammer3d", "inventory"));
+        this.addModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_morninstar3d", "inventory"));
     }
 }

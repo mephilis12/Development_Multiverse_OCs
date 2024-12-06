@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "devocs:block/poly_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "devocs:block/poly_wood"
+    },
+    "axis=z": {
+      "model": "devocs:block/poly_wood",
+      "x": 90
+    }
+  }
+}

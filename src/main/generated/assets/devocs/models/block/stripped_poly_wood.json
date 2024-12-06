@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "devocs:block/stripped_poly_log",
+    "side": "devocs:block/stripped_poly_log"
+  }
+}

@@ -1,5 +1,7 @@
-// 1.20.1	2024-12-06T01:30:17.0810439	Development Multiverse OCs/World Gen
+// 1.20.1	2024-12-06T15:47:58.069899	Development Multiverse OCs/World Gen
 7f1b19baf540c9fe57da58f6e74afbb8f4aaf8cb data\devocs\worldgen\configured_feature\nether_ruby_ore.json
 b0bb44269cc8791944a60028497f2386b5765bed data\devocs\worldgen\placed_feature\ruby_ore_placed.json
 a21ff3c2e4aebdb77003ba2f913cbe433963c009 data\devocs\worldgen\configured_feature\ruby_ore.json
 4be8c06cf7b27e93036f04576f82d1a454556cc6 data\devocs\worldgen\placed_feature\cobalt_ore_placed.json
+b648f6a122c8203b0c8dc3746872aa7366082f9d data\devocs\worldgen\configured_feature\poly.json
+2f08caea652a86e29e9ec714644e8cf31063865c data\devocs\worldgen\placed_feature\poly_placed.json

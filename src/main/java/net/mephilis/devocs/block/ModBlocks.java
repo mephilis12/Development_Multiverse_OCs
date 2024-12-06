@@ -8,8 +8,8 @@ import net.mephilis.devocs.DevelopmentMultiverseOCs;
 import net.mephilis.devocs.block.custom.EmptyGlassBlock;
 import net.mephilis.devocs.block.custom.RotatingBlock;
 import net.mephilis.devocs.item.ModItems;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.mephilis.devocs.world.tree.PolySaplingGenerator;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -48,6 +48,24 @@ public class ModBlocks {
     public static final Block EMPTY_GLASS = registerBlock("empty_glass",
             new EmptyGlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
 
+    public static final Block POLY_LOG = registerBlock("poly_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LOG)));
+    public static final Block POLY_WOOD = registerBlock("poly_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD)));
+    public static final Block STRIPPED_POLY_LOG = registerBlock("stripped_poly_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_CHERRY_LOG)));
+    public static final Block STRIPPED_POLY_WOOD = registerBlock("stripped_poly_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_CHERRY_WOOD)));
+
+
+    public static final Block POLY_PLANKS = registerBlock("poly_planks",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS)));
+    public static final Block POLY_LEAVES = registerBlock("poly_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LEAVES).nonOpaque()));
+
+    public static final Block POLY_SAPLING = registerBlock("poly_sapling",
+            new SaplingBlock(new PolySaplingGenerator(),FabricBlockSettings.copyOf(Blocks.CHERRY_SAPLING).nonOpaque()));
+
 
 
     private static void addItemsToBuildingBlocksItemGroups(FabricItemGroupEntries entries) {
@@ -63,6 +81,13 @@ public class ModBlocks {
         entries.add(DEEPSLATE_RUBY_ORE);
         entries.add(COBALT_ORE);
         entries.add(DEEPSLATE_COBALT_ORE);
+        entries.add(POLY_LOG);
+        entries.add(POLY_WOOD);
+        entries.add(STRIPPED_POLY_LOG);
+        entries.add(STRIPPED_POLY_WOOD);
+        entries.add(POLY_PLANKS);
+        entries.add(POLY_LEAVES);
+        entries.add(POLY_SAPLING);
     }
 
     private static Block registerBlock(String name, Block block) {

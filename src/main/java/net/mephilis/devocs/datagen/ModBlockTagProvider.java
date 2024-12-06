@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.mephilis.devocs.block.ModBlocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -35,6 +36,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.BROKEN_PORTAL_FRAME)
                 .add(ModBlocks.FRAME_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.POLY_LOG)
+                .add(ModBlocks.POLY_WOOD)
+                .add(ModBlocks.STRIPPED_POLY_LOG)
+                .add(ModBlocks.STRIPPED_POLY_WOOD);
 
 
     }

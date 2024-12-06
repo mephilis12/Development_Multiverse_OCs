@@ -17,6 +17,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_WALL_DESIGN);
         addDrop(ModBlocks.BROKEN_PORTAL_FRAME);
         addDrop(ModBlocks.FRAME_BLOCK);
+        addDrop(ModBlocks.POLY_WOOD);
+        addDrop(ModBlocks.POLY_LOG);
+        addDrop(ModBlocks.STRIPPED_POLY_LOG);
+        addDrop(ModBlocks.STRIPPED_POLY_WOOD);
+        addDrop(ModBlocks.POLY_PLANKS);
+        addDrop(ModBlocks.POLY_SAPLING);
+
+        addDrop(ModBlocks.POLY_LEAVES, leavesDrops(ModBlocks.POLY_LEAVES,ModBlocks.POLY_SAPLING,0.005f));
 
         addDrop(ModBlocks.RUBY_ORE, oreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY));
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY));
