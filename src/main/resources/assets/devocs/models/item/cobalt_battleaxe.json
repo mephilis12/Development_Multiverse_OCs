@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "devocs:item/cobalt_battleaxe"
+    "layer0": "devocs:item/cobalt_battleaxe2d"
   }
 }

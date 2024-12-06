@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-01T19:49:32.625539	Development Multiverse OCs/Recipes
+// 1.20.1	2024-12-06T01:30:17.0830455	Development Multiverse OCs/Recipes
 6f0095e62089e88a9d6bda6b49a212b8c264ce2b data\devocs\recipes\cobalt_dust_from_blasting_cobalt_ore.json
 8b97b630557b5678791e805be7b7273b90dd6e61 data\devocs\advancements\recipes\misc\ruby_from_smelting_deepslate_ruby_ore.json
 7c504c5397b9de09693bc961d11e65125fbfbd4c data\devocs\recipes\floor_tile.json
@@ -17,5 +17,5 @@ d694e4296973f46e35f3320c8f5d6be172937624 data\devocs\recipes\cobalt_dust_from_sm
 c466823f950d7afa4c96e5e275989c434fce9dba data\devocs\advancements\recipes\misc\floor_tile.json
 ad47a3caef802adaa8c00dd55692fbbde197014f data\devocs\advancements\recipes\misc\cobalt_dust_from_smelting_cobalt_ore.json
 ad66b2d388c4be6fcb9bffc85f444d274867f8be data\devocs\advancements\recipes\misc\cobalt_dust_from_blasting_cobalt_ore.json
-c3a83e35db2ae926ea49f2a606302d5afac8c02a data\devocs\recipes\cobalt_dust_from_blasting_deepslate_cobalt_ore.json
 aa9e381c202874300fe7a5b6695dee11dbc7c670 data\devocs\recipes\cobalt_dust_from_smelting_deepslate_cobalt_ore.json
+c3a83e35db2ae926ea49f2a606302d5afac8c02a data\devocs\recipes\cobalt_dust_from_blasting_deepslate_cobalt_ore.json

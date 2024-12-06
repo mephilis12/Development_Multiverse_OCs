@@ -23,7 +23,11 @@ public class ModItems {
 
     public static final Item COBALT_BATTLEAXE = registerItem("cobalt_battleaxe", new SwordItem(ModToolMaterial.COBALT,6,-3.5F, new FabricItemSettings()));
 
-    public static final Item COBALT_CLAYMORE = registerItem("cobalt_claymore", new SwordItem(ModToolMaterial.COBALT,3,-3.0F, new FabricItemSettings()));
+    public static final Item COBALT_CLAYMORE = registerItem("cobalt_claymore", new SwordItem(ModToolMaterial.COBALT,2,-2.5F, new FabricItemSettings()));
+
+    public static final Item COBALT_HAMMER = registerItem("cobalt_hammer", new SwordItem(ModToolMaterial.COBALT,8,-3.75F, new FabricItemSettings()));
+
+    public static final Item COBALT_MORNINGSTAR = registerItem("cobalt_morningstar", new SwordItem(ModToolMaterial.COBALT,1,-1.5F, new FabricItemSettings()));
 
     public static final Item MILKSHAKE = registerItem("milkshake", new MilkshakeItem(new FabricItemSettings().food(ModFoodComponents.MILKSHAKE).maxCount(1)));
 
@@ -34,6 +38,14 @@ public class ModItems {
         entries.add(COBALT_INGOT);
 
      }
+
+    private static void  addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
+        entries.add(COBALT_BATTLEAXE);
+        entries.add(COBALT_CLAYMORE);
+        entries.add(COBALT_HAMMER);
+        entries.add(COBALT_MORNINGSTAR);
+
+    }
 
 
      private static void  addItemsToFoodTabItemGroup(FabricItemGroupEntries entries) {
@@ -54,6 +66,8 @@ public class ModItems {
         DevelopmentMultiverseOCs.LOGGER.info("Register Mod Items for " + DevelopmentMultiverseOCs.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatTabItemGroup);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodTabItemGroup);
     }
