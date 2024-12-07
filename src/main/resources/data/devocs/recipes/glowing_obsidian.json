@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "devocs:ruby"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "pattern": [
+    "ROR",
+    "OGO",
+    "ROR"
+  ],
+  "result": {
+    "item": "devocs:glowing_obsidian"
+  },
+  "show_notification": true
+}

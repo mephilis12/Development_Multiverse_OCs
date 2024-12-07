@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "devocs:poly_planks"
+    }
+  ],
+  "result": {
+    "item": "devocs:poly_button"
+  }
+}

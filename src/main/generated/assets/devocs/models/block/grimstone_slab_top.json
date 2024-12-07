@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "devocs:block/frame_block",
+    "side": "devocs:block/frame_block",
+    "top": "devocs:block/frame_block"
+  }
+}

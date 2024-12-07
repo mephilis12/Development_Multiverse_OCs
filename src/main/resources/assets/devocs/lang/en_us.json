@@ -45,7 +45,20 @@
   "block.devocs.stripped_poly_wood": "Stripped Poly Wood",
   "block.devocs.poly_planks": "Poly Planks",
   "block.devocs.poly_leaves": "Poly Leaves",
-  "block.devocs.poly_sapling": "Poly Sapling"
+  "block.devocs.poly_sapling": "Poly Sapling",
+  "block.devocs.poly_door": "Poly Door",
+  "block.devocs.poly_slab": "Poly Slab",
+  "block.devocs.poly_stairs": "Poly Stairs",
+  "block.devocs.poly_fence": "Poly Fence",
+  "block.devocs.poly_fence_gate": "Poly Fence Gate",
+  "block.devocs.poly_trapdoor": "Poly Trapdoor",
+  "block.devocs.poly_button": "Poly Button",
+  "block.devocs.poly_pressure_plate": "Poly Pressure Plate",
+  "block.devocs.cobalt_block": "Block of Cobalt",
+  "block.devocs.ruby_block": "Block of Ruby",
+  "block.devocs.glowing_obsidian": "Glowing Obsidian",
+  "block.devocs.grimstone_stairs": "Grimstone Stairs",
+  "block.devocs.grimstone_slab": "Grimstone Slab"
 
 
 

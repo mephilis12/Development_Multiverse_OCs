@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "devocs:block/grimstone_slab"
+    },
+    "type=double": {
+      "model": "devocs:block/frame_block"
+    },
+    "type=top": {
+      "model": "devocs:block/grimstone_slab_top"
+    }
+  }
+}

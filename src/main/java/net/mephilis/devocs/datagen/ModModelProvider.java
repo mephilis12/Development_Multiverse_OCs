@@ -19,8 +19,29 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.POLY_LOG).log(ModBlocks.POLY_LOG).wood(ModBlocks.POLY_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_POLY_LOG).log(ModBlocks.STRIPPED_POLY_LOG).wood(ModBlocks.STRIPPED_POLY_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLY_LEAVES);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLY_PLANKS);
+        BlockStateModelGenerator.BlockTexturePool polyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLY_PLANKS);
         blockStateModelGenerator.registerTintableCross(ModBlocks.POLY_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COBALT_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOWING_OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool grimstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRIMSTONE);
+
+        polyPool.stairs(ModBlocks.POLY_STAIRS);
+        polyPool.slab(ModBlocks.POLY_SLAB);
+        polyPool.button(ModBlocks.POLY_BUTTON);
+        polyPool.pressurePlate(ModBlocks.POLY_PRESSURE_PLATE);
+        polyPool.fence(ModBlocks.POLY_FENCE);
+        polyPool.fenceGate(ModBlocks.POLY_FENCE_GATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.POLY_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.POLY_TRAPDOOR);
+
+        grimstonePool.slab(ModBlocks.GRIMSTONE_SLAB);
+        grimstonePool.stairs(ModBlocks.GRIMSTONE_STAIRS);
+
+
+
+
 
     }
 

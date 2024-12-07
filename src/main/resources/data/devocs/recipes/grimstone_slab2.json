@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "devocs:frame_block"
+  },
+  "result": "devocs:grimstone_slab"
+}

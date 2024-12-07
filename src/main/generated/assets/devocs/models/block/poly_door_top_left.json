@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "devocs:block/poly_door_bottom",
+    "top": "devocs:block/poly_door_top"
+  }
+}

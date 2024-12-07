@@ -32,7 +32,7 @@ public class ModItems {
     public static final Item COBALT_MORNINGSTAR = registerItem("cobalt_morningstar"
             , new SwordItem(ModToolMaterial.COBALT,1,-1.5F, new FabricItemSettings()));
     public static final Item COBALT_SCYTHE = registerItem("cobalt_scythe"
-            , new SwordItem(ModToolMaterial.COBALT,0,-1F, new FabricItemSettings()));
+            , new net.mephilis.devocs.item.ScytheItem(ModToolMaterial.COBALT,0,-1F, new FabricItemSettings()));
     public static final Item RUBY_BATTLEAXE = registerItem("ruby_battleaxe"
             , new SwordItem(ModToolMaterial.RUBY,5,-3F, new FabricItemSettings()));
     public static final Item RUBY_CLAYMORE = registerItem("ruby_claymore"
@@ -42,11 +42,11 @@ public class ModItems {
     public static final Item RUBY_MORNINGSTAR = registerItem("ruby_morningstar"
             , new SwordItem(ModToolMaterial.RUBY,-1,-1F, new FabricItemSettings()));
     public static final Item RUBY_SCYTHE = registerItem("ruby_scythe"
-            , new SwordItem(ModToolMaterial.RUBY,-1,-1F, new FabricItemSettings()));
+            , new net.mephilis.devocs.item.ScytheItem(ModToolMaterial.RUBY,-1,-1F, new FabricItemSettings()));
     public static final Item TRUSTY = registerItem("trusty"
             , new SwordItem(ModToolMaterial.SPECIAL,4,-2.4F, new FabricItemSettings()));
     public static final Item MOSSY_SCYTHE = registerItem("mossy_scythe"
-            , new SwordItem(ModToolMaterial.SPECIAL,2,-1, new FabricItemSettings()));
+            , new net.mephilis.devocs.item.ScytheItem(ModToolMaterial.SPECIAL,2,-1, new FabricItemSettings()));
 
     public static final Item COBALT_HELMET = registerItem("cobalt_helmet"
             , new ArmorItem(ModArmorMaterials.COBALT, ArmorItem.Type.HELMET, new FabricItemSettings()));

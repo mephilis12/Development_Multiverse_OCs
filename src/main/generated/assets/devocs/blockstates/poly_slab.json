@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "devocs:block/poly_slab"
+    },
+    "type=double": {
+      "model": "devocs:block/poly_planks"
+    },
+    "type=top": {
+      "model": "devocs:block/poly_slab_top"
+    }
+  }
+}

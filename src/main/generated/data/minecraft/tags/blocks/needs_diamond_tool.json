@@ -4,6 +4,8 @@
     "devocs:broken_portal_frame",
     "devocs:frame_block",
     "devocs:cobalt_ore",
-    "devocs:deepslate_cobalt_ore"
+    "devocs:deepslate_cobalt_ore",
+    "devocs:cobalt_block",
+    "devocs:glowing_obsidian"
   ]
 }

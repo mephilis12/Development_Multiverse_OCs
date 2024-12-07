@@ -3,6 +3,9 @@
   "values": [
     "devocs:ruby_ore",
     "devocs:deepslate_wall_design",
-    "devocs:deepslate_ruby_ore"
+    "devocs:deepslate_ruby_ore",
+    "devocs:ruby_block",
+    "devocs:grimstone_slab",
+    "devocs:grimstone_stairs"
   ]
 }
