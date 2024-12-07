@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "devocs:cobalt_helmet",
+    "devocs:cobalt_chestplate",
+    "devocs:cobalt_leggings",
+    "devocs:cobalt_boots",
+    "devocs:ruby_helmet",
+    "devocs:ruby_chestplate",
+    "devocs:ruby_leggings",
+    "devocs:ruby_boots"
+  ]
+}

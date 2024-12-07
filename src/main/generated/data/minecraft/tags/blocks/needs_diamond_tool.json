@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "devocs:broken_portal_frame",
-    "devocs:frame_block"
+    "devocs:frame_block",
+    "devocs:cobalt_ore",
+    "devocs:deepslate_cobalt_ore"
   ]
 }

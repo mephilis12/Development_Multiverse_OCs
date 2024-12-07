@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "devocs:stripped_poly_wood"
+    }
+  ],
+  "result": {
+    "item": "devocs:poly_planks",
+    "count": 4
+  }
+}

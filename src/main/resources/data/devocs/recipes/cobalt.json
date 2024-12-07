@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CMC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "devocs:cobalt_dust"
+    },
+    "M": {
+      "item": "devocs:molten_iron"
+    }
+  },
+  "result": {
+    "item": "devocs:cobalt_ingot",
+    "count": 1
+  }
+}

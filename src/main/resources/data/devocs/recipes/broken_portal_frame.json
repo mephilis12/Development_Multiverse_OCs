@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "ingredients": [],
+  "pattern": [
+    "RRR",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "R": {
+      "item": "devocs:ruby"
+    },
+    "G": {
+      "item": "devocs:frame_block"
+    },
+    "C": {
+      "item": "devocs:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "devocs:broken_portal_frame",
+    "count": 3
+  }
+}

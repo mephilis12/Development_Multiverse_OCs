@@ -1,6 +1,7 @@
 package net.mephilis.devocs.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -8,6 +9,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     COBALT(MiningLevels.NETHERITE, 2531, 10f, 5.5f, 20, () -> Ingredient.ofItems(ModItems.COBALT_INGOT) ),
+    SPECIAL(MiningLevels.IRON, 2531, 10f, 4f, 20, () -> Ingredient.ofItems(Items.IRON_INGOT) ),
     RUBY(MiningLevels.NETHERITE, 2131, 9f, 4.5F, 16, () -> Ingredient.ofItems(ModItems.RUBY) )
 
     ;

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "devocs:empty_glass"
+    }
+  ],
+  "result": {
+    "item": "devocs:milkshake"
+  }
+}

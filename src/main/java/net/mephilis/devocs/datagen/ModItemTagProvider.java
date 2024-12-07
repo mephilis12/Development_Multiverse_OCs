@@ -3,6 +3,7 @@ package net.mephilis.devocs.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.mephilis.devocs.block.ModBlocks;
+import net.mephilis.devocs.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 
@@ -15,6 +16,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider  {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.COBALT_HELMET,ModItems.COBALT_CHESTPLATE,ModItems.COBALT_LEGGINGS,ModItems.COBALT_BOOTS,ModItems.RUBY_HELMET,ModItems.RUBY_CHESTPLATE,ModItems.RUBY_LEGGINGS,ModItems.RUBY_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.POLY_PLANKS.asItem());

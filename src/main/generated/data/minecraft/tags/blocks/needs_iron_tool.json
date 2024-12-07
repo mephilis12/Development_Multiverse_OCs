@@ -1,10 +1,8 @@
 {
   "replace": false,
   "values": [
-    "devocs:cobalt_ore",
     "devocs:ruby_ore",
     "devocs:deepslate_wall_design",
-    "devocs:deepslate_ruby_ore",
-    "devocs:deepslate_cobalt_ore"
+    "devocs:deepslate_ruby_ore"
   ]
 }

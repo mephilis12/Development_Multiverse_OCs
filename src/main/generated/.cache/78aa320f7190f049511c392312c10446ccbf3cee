@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-06T15:47:58.0708994	Development Multiverse OCs/Block Loot Tables
+// 1.20.1	2024-12-06T20:50:45.1266346	Development Multiverse OCs/Block Loot Tables
 35ed06f712b28286e1fdcba7f6a8f5179a1c3c84 data\devocs\loot_tables\blocks\stripped_poly_wood.json
 4babe510ea4bb909b85e252ecfcfb35b3909596a data\devocs\loot_tables\blocks\empty_glass.json
 35c58466afccf5214b4d75dc3dd3f378c7c74a8b data\devocs\loot_tables\blocks\deepslate_cobalt_ore.json
@@ -9,8 +9,8 @@
 0dd5accf36037565ed5c4c6a62de6762a58fd975 data\devocs\loot_tables\blocks\poly_wood.json
 1b87f57fb95e7eccd89670d35f4fceb321a55c5d data\devocs\loot_tables\blocks\poly_log.json
 9657715a28e7e2d390705c163d760cd3d6f04cf4 data\devocs\loot_tables\blocks\deepslate_ruby_ore.json
-5e00e842827ea6345b282f73d853c3d263203ba1 data\devocs\loot_tables\blocks\frame_block.json
 b105e27d1c3424935724c5dd28e0780ce58e4d72 data\devocs\loot_tables\blocks\broken_portal_frame.json
+5e00e842827ea6345b282f73d853c3d263203ba1 data\devocs\loot_tables\blocks\frame_block.json
 4641e64b3be3a833792243c7cb1eced7d1bb1c4d data\devocs\loot_tables\blocks\poly_planks.json
 dcb0a2ced2a80ac98e22ffc239fe9c81d6b1edb4 data\devocs\loot_tables\blocks\deepslate_wall_design.json
 180bda9df7bdb7b9b9a093c3b4d21f4fedda161e data\devocs\loot_tables\blocks\ruby_ore.json

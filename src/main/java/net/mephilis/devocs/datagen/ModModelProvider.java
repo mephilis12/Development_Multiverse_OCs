@@ -3,8 +3,10 @@ package net.mephilis.devocs.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.mephilis.devocs.block.ModBlocks;
+import net.mephilis.devocs.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -24,6 +26,16 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+    itemModelGenerator.registerArmor(((ArmorItem) ModItems.COBALT_HELMET));
+    itemModelGenerator.registerArmor(((ArmorItem) ModItems.COBALT_CHESTPLATE));
+    itemModelGenerator.registerArmor(((ArmorItem) ModItems.COBALT_LEGGINGS));
+    itemModelGenerator.registerArmor(((ArmorItem) ModItems.COBALT_BOOTS));
+
+    itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
+    itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));
+    itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_LEGGINGS));
+    itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
 
     }
 }

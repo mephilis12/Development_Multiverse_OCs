@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "devocs:ruby"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "devocs:ruby_claymore"
+  },
+  "template": {
+    "item": "devocs:ruby_upgrade"
+  }
+}

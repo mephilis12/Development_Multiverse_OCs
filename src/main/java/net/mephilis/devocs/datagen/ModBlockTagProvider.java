@@ -26,16 +26,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BROKEN_PORTAL_FRAME)
                 .add(ModBlocks.FRAME_BLOCK);
 
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.POLY_PLANKS);
+
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.COBALT_ORE)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_WALL_DESIGN)
-                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
-                .add(ModBlocks.DEEPSLATE_COBALT_ORE);
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE);
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.BROKEN_PORTAL_FRAME)
-                .add(ModBlocks.FRAME_BLOCK);
+                .add(ModBlocks.FRAME_BLOCK)
+                .add(ModBlocks.COBALT_ORE)
+                .add(ModBlocks.DEEPSLATE_COBALT_ORE);
+
+
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.POLY_LOG)

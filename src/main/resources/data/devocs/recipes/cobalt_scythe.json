@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "devocs:cobalt_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "result": {
+    "item": "devocs:cobalt_scythe"
+  },
+  "template": {
+    "item": "devocs:cobalt_upgrade"
+  }
+}

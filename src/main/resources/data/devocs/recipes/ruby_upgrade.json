@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SRS",
+    "RRR",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "R": {
+      "item": "devocs:ruby"
+    }
+  },
+  "result": {
+    "item": "devocs:ruby_upgrade",
+    "count": 1
+  }
+}

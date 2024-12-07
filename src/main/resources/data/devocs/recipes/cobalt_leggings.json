@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "devocs:cobalt"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "devocs:cobalt_leggings"
+  },
+  "template": {
+    "item": "devocs:cobalt_upgrade"
+  }
+}

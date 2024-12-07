@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MCC",
+    "MCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:glass"
+    },
+    "M": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "devocs:empty_glass",
+    "count": 1
+  }
+}

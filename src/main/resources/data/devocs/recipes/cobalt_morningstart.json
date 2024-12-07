@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "devocs:cobalt_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "item": "devocs:cobalt_morningstar"
+  },
+  "template": {
+    "item": "devocs:cobalt_upgrade"
+  }
+}

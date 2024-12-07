@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "devocs:ruby"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "devocs:ruby_battleaxe"
+  },
+  "template": {
+    "item": "devocs:ruby_upgrade"
+  }
+}

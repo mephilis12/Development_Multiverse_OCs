@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SRS",
+    "RRR",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:deepslate"
+    },
+    "R": {
+      "item": "devocs:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "devocs:cobalt_upgrade",
+    "count": 1
+  }
+}

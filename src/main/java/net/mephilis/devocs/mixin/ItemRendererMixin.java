@@ -43,6 +43,18 @@ public abstract class ItemRendererMixin {
         if (stack.isOf(ModItems.RUBY_MORNINGSTAR) && renderMode != ModelTransformationMode.GUI) {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_morninstar3d", "inventory"));
         }
+        if (stack.isOf(ModItems.TRUSTY) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "trusty3d", "inventory"));
+        }
+        if (stack.isOf(ModItems.COBALT_SCYTHE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "cobalt_scythe3d", "inventory"));
+        }
+        if (stack.isOf(ModItems.RUBY_SCYTHE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "ruby_scythe3d", "inventory"));
+        }
+        if (stack.isOf(ModItems.MOSSY_SCYTHE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(DevelopmentMultiverseOCs.MOD_ID, "doc_scythe3d", "inventory"));
+        }
         return value;
     }
 }
