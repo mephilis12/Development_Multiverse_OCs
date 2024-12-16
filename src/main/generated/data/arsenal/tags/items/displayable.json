@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "devocs:trusty",
+    "devocs:mossy_scythe",
+    "devocs:cobalt_battleaxe",
+    "devocs:cobalt_claymore",
+    "devocs:cobalt_scythe",
+    "devocs:cobalt_morningstar",
+    "devocs:ruby_battleaxe",
+    "devocs:ruby_claymore",
+    "devocs:ruby_scythe",
+    "devocs:ruby_morningstar",
+    "devocs:cobalt_hammer",
+    "devocs:ruby_hammer"
+  ]
+}
