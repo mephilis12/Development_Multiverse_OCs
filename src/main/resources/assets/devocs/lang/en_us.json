@@ -36,6 +36,7 @@
   "block.devocs.cobalt_ore": "Cobalt Ore",
   "block.devocs.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
   "block.devocs.deepslate_wall_design": "Deepslate Wall Design",
+  "block.devocs.pub_sign": "Pub Sign",
   "block.devocs.empty_glass": "Empty Glass",
   "block.devocs.broken_portal_frame": "Broken Portal Frames",
   "block.devocs.frame_block": "Grimstone",
@@ -58,7 +59,9 @@
   "block.devocs.ruby_block": "Block of Ruby",
   "block.devocs.glowing_obsidian": "Glowing Obsidian",
   "block.devocs.grimstone_stairs": "Grimstone Stairs",
-  "block.devocs.grimstone_slab": "Grimstone Slab"
+  "block.devocs.grimstone_slab": "Grimstone Slab",
+  "block.devocs.stephan_statue": "Stephan Statue",
+  "block.devocs.glowing_crying_obsidian": "Glowing Crying Obsidian"
 
 
 

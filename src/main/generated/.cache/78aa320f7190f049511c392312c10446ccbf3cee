@@ -1,7 +1,9 @@
-// 1.20.1	2024-12-07T18:04:38.4844331	Development Multiverse OCs/Block Loot Tables
+// 1.20.1	2024-12-16T20:36:55.0221941	Development Multiverse OCs/Block Loot Tables
+335c9fddf50d611fa627548d002ed61911f8f0c6 data\devocs\loot_tables\blocks\stephan_statue.json
 a21a104484091f31bd3f2a19048d28e8ba1ebbbf data\devocs\loot_tables\blocks\poly_stairs.json
-075673960ca24080ea8b24b5e714afbad36c89c2 data\devocs\loot_tables\blocks\poly_leaves.json
+fce546757f4f30f18e712083bf1d30403a4e7a86 data\devocs\loot_tables\blocks\poly_leaves.json
 71b9acf7116dd0c3b9af507af41116c78d47eb28 data\devocs\loot_tables\blocks\grimstone_stairs.json
+17c3e2a3becb46b1a8c5aa3062ac3965d0ef62f5 data\devocs\loot_tables\blocks\glowing_crying_obsidian.json
 e64cecfc94b95cc594458a1fbef5b103b88761e9 data\devocs\loot_tables\blocks\poly_button.json
 063071e4e96a55ce1fc3c5c66e54d4726935cbf8 data\devocs\loot_tables\blocks\poly_pressure_plate.json
 2800ad429b5d14c6422a46a95276243e2c0face7 data\devocs\loot_tables\blocks\poly_trapdoor.json
@@ -19,10 +21,11 @@ cd533b12b0824fd73734303290289c2922d45142 data\devocs\loot_tables\blocks\poly_fen
 cd9b40a1f9f104a364d14ab8177f440fc6acd2a3 data\devocs\loot_tables\blocks\grimstone_slab.json
 4f3b1558e6cb9b7f110bf9994124474b7f26beb7 data\devocs\loot_tables\blocks\poly_slab.json
 9bc523a862d97d625669a94fdb9585e446fae409 data\devocs\loot_tables\blocks\floor_tile.json
-98dd14cdd1700879c73af9f33e189979eb73b7d9 data\devocs\loot_tables\blocks\stripped_poly_log.json
 0dd5accf36037565ed5c4c6a62de6762a58fd975 data\devocs\loot_tables\blocks\poly_wood.json
+98dd14cdd1700879c73af9f33e189979eb73b7d9 data\devocs\loot_tables\blocks\stripped_poly_log.json
 b105e27d1c3424935724c5dd28e0780ce58e4d72 data\devocs\loot_tables\blocks\broken_portal_frame.json
 5e00e842827ea6345b282f73d853c3d263203ba1 data\devocs\loot_tables\blocks\frame_block.json
+b96b8030b93a46680b826cd18b9dc26f291e803d data\devocs\loot_tables\blocks\pub_sign.json
 95b577ca08fe2ca8ff2a713e2812c97fad0f6914 data\devocs\loot_tables\blocks\cobalt_ore.json
 275f37ca2ca5342b31be1abf591a8777c378a089 data\devocs\loot_tables\blocks\glowing_obsidian.json
 da80df4cdc111f57909ee3f34f5b06b02424261e data\devocs\loot_tables\blocks\poly_fence_gate.json

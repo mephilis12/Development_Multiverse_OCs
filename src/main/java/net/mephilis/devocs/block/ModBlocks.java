@@ -5,8 +5,8 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mephilis.devocs.DevelopmentMultiverseOCs;
-import net.mephilis.devocs.block.custom.EmptyGlassBlock;
-import net.mephilis.devocs.block.custom.RotatingBlock;
+import net.mephilis.devocs.block.custom.*;
+import net.mephilis.devocs.block.custom.WallSignBlock;
 import net.mephilis.devocs.world.tree.PolySaplingGenerator;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -42,9 +42,17 @@ public class ModBlocks {
             new RotatingBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK)));
     public static final Block GLOWING_OBSIDIAN = registerBlock("glowing_obsidian",
             new RotatingBlock(FabricBlockSettings.copyOf(Blocks.CRYING_OBSIDIAN).luminance(state -> 15)));
+    public static final Block GLOWING_CRYING_OBSIDIAN = registerBlock("glowing_crying_obsidian",
+            new RotatingBlock(FabricBlockSettings.copyOf(Blocks.CRYING_OBSIDIAN).luminance(state -> 15)));
+    public static final Block PUB_SIGN = registerBlock("pub_sign",
+            new WallSignBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(state -> 6).nonOpaque()));
 
     public static final Block EMPTY_GLASS = registerBlock("empty_glass",
             new EmptyGlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+
+
+    public static final Block STEPHAN_STATUE = registerBlock("stephan_statue",
+            new StephanBlock(FabricBlockSettings.copyOf(Blocks.STONE).nonOpaque()));
 
     public static final Block POLY_LOG = registerBlock("poly_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LOG)));
@@ -90,6 +98,7 @@ public class ModBlocks {
 
 
 
+
     private static void addItemsToBuildingBlocksItemGroups(FabricItemGroupEntries entries) {
         entries.add(FLOOR_TILE);
         entries.add(DEEPSLATE_WALL_DESIGN);
@@ -101,6 +110,9 @@ public class ModBlocks {
         entries.add(COBALT_BLOCK);
         entries.add(RUBY_BLOCK);
         entries.add(GLOWING_OBSIDIAN);
+        entries.add(GLOWING_CRYING_OBSIDIAN);
+        entries.add(PUB_SIGN);
+        entries.add(STEPHAN_STATUE);
 
         entries.add(POLY_LOG);
         entries.add(POLY_WOOD);

@@ -24,8 +24,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLY_PLANKS);
         addDrop(ModBlocks.POLY_SAPLING);
         addDrop(ModBlocks.GLOWING_OBSIDIAN);
+        addDrop(ModBlocks.PUB_SIGN);
+        addDrop(ModBlocks.STEPHAN_STATUE);
+        addDrop(ModBlocks.GLOWING_CRYING_OBSIDIAN);
 
-        addDrop(ModBlocks.POLY_LEAVES, leavesDrops(ModBlocks.POLY_LEAVES,ModBlocks.POLY_SAPLING,0.005f));
+        addDrop(ModBlocks.POLY_LEAVES, leavesDrops(ModBlocks.POLY_LEAVES,ModBlocks.POLY_SAPLING,0.05f));
 
         addDrop(ModBlocks.RUBY_ORE, oreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY));
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY));

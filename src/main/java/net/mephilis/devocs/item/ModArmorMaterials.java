@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     RUBY("ruby",39, new int[] {4, 8, 7, 4 },20,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F,0.5f,() -> Ingredient.ofItems(ModItems.RUBY)),
-    COBALT("cobalt",25, new int[] {5, 10, 8, 5 },20,
+    COBALT("cobalt",25, new int[] {6, 11, 9, 6 },20,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 6.0f,-0.1f,() -> Ingredient.ofItems(ModItems.COBALT_INGOT));
     ;
 

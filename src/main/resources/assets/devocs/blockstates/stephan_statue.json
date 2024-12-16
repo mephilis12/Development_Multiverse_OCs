@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "devocs:block/stephan"
+    },
+    "facing=east": {
+      "model": "devocs:block/stephan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "devocs:block/stephan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "devocs:block/stephan",
+      "y": 270
+    }
+  }
+}

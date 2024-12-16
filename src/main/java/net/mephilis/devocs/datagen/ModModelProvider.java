@@ -24,6 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COBALT_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOWING_OBSIDIAN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOWING_CRYING_OBSIDIAN);
         BlockStateModelGenerator.BlockTexturePool grimstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRIMSTONE);
 
         polyPool.stairs(ModBlocks.POLY_STAIRS);

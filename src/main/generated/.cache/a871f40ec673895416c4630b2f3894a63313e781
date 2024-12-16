@@ -1,15 +1,15 @@
-// 1.20.1	2024-12-07T18:04:38.4904391	Development Multiverse OCs/Tags for minecraft:block
+// 1.20.1	2024-12-16T20:36:55.0271989	Development Multiverse OCs/Tags for minecraft:block
 a0abdfe51344afa2b20c19bd8e687799995049e5 data\minecraft\tags\blocks\fence_gates.json
 c34882995c233caee66d11314d2ea895e259fb91 data\minecraft\tags\blocks\wooden_slabs.json
 defade656ac8099e3d6911fd1ba34ae555119dc2 data\minecraft\tags\blocks\wooden_fences.json
 352ae7abe1b6c94aee1b4d5a79c4d5be5deb951d data\minecraft\tags\blocks\wooden_doors.json
 087ab69abdb57055767c1d349b922000b359f74c data\minecraft\tags\blocks\wooden_pressure_plates.json
-39e9ee3d78df007714921af0a09a12610cbd673f data\minecraft\tags\blocks\needs_diamond_tool.json
+76a3518bc07f6ea9417a977ee467d41067f17503 data\minecraft\tags\blocks\needs_diamond_tool.json
 c5d84580f8604a6837ca31a7343c2dff567e2e84 data\minecraft\tags\blocks\mineable\axe.json
 67440caede1ba31c8a071d028678b351145e8c30 data\minecraft\tags\blocks\wooden_stairs.json
 6b4387a1221e027a877655b8275c7ffae55079f3 data\minecraft\tags\blocks\fences.json
 dd3244889317d09b86a938eae279965523d8df22 data\minecraft\tags\blocks\wooden_trapdoors.json
-808f9ff36ee74419bee5bde0f0f3c8c4c9d50523 data\minecraft\tags\blocks\wooden_buttons.json
 7dfc56f8bc96e93634c8c8b593406625b6e1fe28 data\minecraft\tags\blocks\needs_iron_tool.json
-a0cbd4ef612aa95b11cf306a971c996a59d0830a data\minecraft\tags\blocks\mineable\pickaxe.json
+808f9ff36ee74419bee5bde0f0f3c8c4c9d50523 data\minecraft\tags\blocks\wooden_buttons.json
+3982d77cc4df5d3669d0b5c9a40622bfb7c5effb data\minecraft\tags\blocks\mineable\pickaxe.json
 ea4ef9327255d194426584db1b1ab9a36bbadef1 data\minecraft\tags\blocks\logs_that_burn.json
