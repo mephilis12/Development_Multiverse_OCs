@@ -1,13 +1,12 @@
 package net.mephilis.devocs.block;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mephilis.devocs.DevelopmentMultiverseOCs;
 import net.mephilis.devocs.block.custom.*;
 import net.mephilis.devocs.block.custom.WallSignBlock;
-import net.mephilis.devocs.world.tree.PolySaplingGenerator;
+import net.mephilis.devocs.world.tree.ModSapplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -73,23 +72,23 @@ public class ModBlocks {
     public static final Block POLY_FENCE = registerBlock("poly_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_FENCE)));
     public static final Block POLY_FENCE_GATE = registerBlock("poly_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_FENCE_GATE),WoodType.CHERRY));
+            new FenceGateBlock(WoodType.CHERRY, FabricBlockSettings.copyOf(Blocks.CHERRY_FENCE_GATE)));
 
     public static final Block POLY_BUTTON = registerBlock("poly_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_BUTTON),BlockSetType.CHERRY,10,true));
+            new ButtonBlock(BlockSetType.CHERRY,10,FabricBlockSettings.copyOf(Blocks.CHERRY_BUTTON)));
     public static final Block POLY_PRESSURE_PLATE = registerBlock("poly_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(Blocks.CHERRY_PRESSURE_PLATE),BlockSetType.CHERRY));
+            new PressurePlateBlock(
+                    BlockSetType.CHERRY, FabricBlockSettings.copyOf(Blocks.CHERRY_PRESSURE_PLATE)));
 
     public static final Block POLY_DOOR = registerBlock("poly_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_DOOR).nonOpaque(),BlockSetType.CHERRY));
+            new DoorBlock(BlockSetType.CHERRY, FabricBlockSettings.copyOf(Blocks.CHERRY_DOOR).nonOpaque()));
     public static final Block POLY_TRAPDOOR = registerBlock("poly_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_TRAPDOOR),BlockSetType.CHERRY));
+            new TrapdoorBlock(BlockSetType.CHERRY, FabricBlockSettings.copyOf(Blocks.CHERRY_TRAPDOOR)));
 
     public static final Block POLY_LEAVES = registerBlock("poly_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LEAVES).nonOpaque()));
     public static final Block POLY_SAPLING = registerBlock("poly_sapling",
-            new SaplingBlock(new PolySaplingGenerator(),FabricBlockSettings.copyOf(Blocks.CHERRY_SAPLING).nonOpaque()));
+            new SaplingBlock(ModSapplingGenerators.POLY,FabricBlockSettings.copyOf(Blocks.CHERRY_SAPLING).nonOpaque()));
 
     public static final Block GRIMSTONE_SLAB = registerBlock("grimstone_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.POLISHED_DEEPSLATE_SLAB)));
@@ -146,12 +145,12 @@ public class ModBlocks {
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
 
-        return Registry.register(Registries.BLOCK, new Identifier(DevelopmentMultiverseOCs.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(DevelopmentMultiverseOCs.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier(DevelopmentMultiverseOCs.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings()));
+        return Registry.register(Registries.ITEM,  Identifier.of(DevelopmentMultiverseOCs.MOD_ID, name),
+                new BlockItem(block, new Item.Settings()));
     }
 
     public static void registerModBlocks() {
