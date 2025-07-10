@@ -32,7 +32,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider  {
                 .add(ModBlocks.STRIPPED_POLY_LOG.asItem())
                 .add(ModBlocks.STRIPPED_POLY_WOOD.asItem());
 
-        getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("arsenal","displayable")))
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, Identifier.of("arsenal","displayable")))
                 .add(ModItems.TRUSTY)
                 .add(ModItems.MOSSY_SCYTHE)
                 .add(ModItems.COBALT_BATTLEAXE)
